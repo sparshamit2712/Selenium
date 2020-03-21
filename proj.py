@@ -1,9 +1,11 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
-driver = webdriver.Chrome(executable_path=r"C:\Users\spars\OneDrive\Desktop\chromedriver.exe")
+driver = webdriver.Chrome(executable_path=r"C:\Users\spars\OneDrive\Desktop\chromedriver.exe")  
+#change the path when you run the code in your system
+#give your own path of the chromedriver.exe
 
 #Login
-br = driver.get('http://54.235.233.16/')
+br = driver.get('http://54.235.233.16/') #link of the dummypage hosted on aws
 sr = driver.find_element_by_id('logemail')
 sr.send_keys("sparshamit1227@gmail.com")
 pk = driver.find_element_by_id('logpsk')
