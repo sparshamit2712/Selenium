@@ -5,9 +5,9 @@ driver = webdriver.Chrome(executable_path=r"C:\Users\spars\OneDrive\Desktop\chro
 #Login
 br = driver.get('http://54.235.233.16/')
 sr = driver.find_element_by_id('logemail')
-sr.send_keys("amazonaniruddha123@gmail.com")
+sr.send_keys("sparshamit1227@gmail.com")
 pk = driver.find_element_by_id('logpsk')
-pk.send_keys("University@99")
+pk.send_keys("idgaf@4567")
 driver.find_element_by_name('login').click()
 
 #Register
