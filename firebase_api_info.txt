@@ -1,0 +1,23 @@
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDUACuhbFrhBrLYt-UfXuUvQfhxpse5yD8",
+    authDomain: "sparshselenium.firebaseapp.com",
+    databaseURL: "https://sparshselenium.firebaseio.com",
+    projectId: "sparshselenium",
+    storageBucket: "sparshselenium.appspot.com",
+    messagingSenderId: "997497475662",
+    appId: "1:997497475662:web:bb80bf5fdc11e9c024a91f",
+    measurementId: "G-WEX2HY2X7C"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
