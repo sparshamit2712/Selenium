@@ -13,11 +13,11 @@ driver.find_element_by_name('login').click()
 #Register
 #driver.find_element_by_id('signfirstname').send_keys("Sparsh")
 #driver.find_element_by_id('signsurname').send_keys("Amit")
-#driver.find_element_by_id('signemail').send_keys("sparshamit2717@gmail.com")
+#driver.find_element_by_id('signemail').send_keys("sparshamit1227@gmail.com")
 #driver.find_element_by_id('signpassword').send_keys("sparshbhai")
 #driver.find_element_by_id('signday').send_keys("27")
 #driver.find_element_by_id('signmonth').send_keys("Dec")
-#driver.find_element_by_id('signyear').send_keys("1998")
+#driver.find_element_by_id('signyear').send_keys("1999")
 #gen = "Male"
 #if(gen=="Male"):
 #    driver.find_element_by_id('signgender1').click()
