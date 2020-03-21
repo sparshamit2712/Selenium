@@ -1,7 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
-driver = webdriver.Chrome(executable_path=r"C:\Users\cools\Desktop\chromedriver_win32\chromedriver.exe")
-from time import sleep
+driver = webdriver.Chrome(executable_path=r"C:\Users\spars\OneDrive\Desktop\chromedriver.exe")
 
 #Login
 br = driver.get('http://54.235.233.16/')
